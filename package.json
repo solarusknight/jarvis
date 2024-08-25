@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "jarvis": "nodemon App.js"
+    "jarvis": "nodemon App.js",
+    "start":"node App.js"
   ***REMOVED***,
   "keywords": [],
   "author": "",
