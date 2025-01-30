@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { handleNewBlog, fetchAll, getContent, deleteBlog, updateBlog ***REMOVED*** = require("../../controllers/nomad/Blog");
+const { handleNewBlog, fetchAll, getContent, deleteBlog, updateBlog } = require("../../controllers/nomad/Blog");
 router.post('/add',handleNewBlog);
 router.get('/fetch',fetchAll);
 router.get('/getcontent',getContent);

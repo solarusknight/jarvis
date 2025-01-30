@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "jarvis_app": "nodemon App.js"
-  ***REMOVED***,
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,8 +17,8 @@
     "mongoose": "^8.7.0",
     "nodemailer": "^6.9.14",
     "sharp": "^0.33.5"
-  ***REMOVED***,
+  },
   "devDependencies": {
     "nodemon": "^3.1.7"
-  ***REMOVED***
-***REMOVED***
+  }
+}
