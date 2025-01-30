@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "jarvis": "nodemon App.js",
-    "jarvis_app":"node App.js"
+    "jarvis": "nodemon App.js"
   ***REMOVED***,
   "keywords": [],
   "author": "",
@@ -15,9 +14,11 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "nodemailer": "^6.9.14"
+    "mongoose": "^8.7.0",
+    "nodemailer": "^6.9.14",
+    "sharp": "^0.33.5"
   ***REMOVED***,
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.7"
   ***REMOVED***
 ***REMOVED***
