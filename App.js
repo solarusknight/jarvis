@@ -12,7 +12,7 @@ const App = express();
 App.use(bodyparser.json({limit:'50mb'}));
 const AllowedOrigins = [
     "http://localhost:3000",
-    "https://prasanth.software"
+    "https://selvaprasanth-sellasamy.github.io/nomad"
 ];
 App.use(
     cors({
