@@ -67,7 +67,8 @@ const handleSignIn = async(req,res) => {
                 return res.status(200).cookie("token",token,{
                     maxAge: 1000 * 60 * 60 * 2, //ms * s * m * h
                     path: "/",
-                    secure: false,
+                    secure: true,
+                    sameSite: "none",
                     httpOnly: true
                 })
                 .send();
